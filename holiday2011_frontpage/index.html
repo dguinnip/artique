@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Artique Gallery</title>
+  <LINK REL=StyleSheet HREF="style.css" TYPE="text/css" MEDIA=screen>
+  <script src=" jquery-1.4.1.js" type="text/javascript"></script>
+  <script src=" jquery.cycle.all.js" type="text/javascript"></script>
+	
+</head>
+<body >
+	<div class="center">
+		<div class="header-graphic"><img src="graphics/header.png" border="0"/></div>
+		<div class="header-text"><img src="graphics/header-text.png" border="0" onmouseover="this.src='graphics/header-text-hover.png'" onmouseout="this.src='graphics/header-text.png'"/></div>
+		<div class="header-icon1"><img src="graphics/header-icon-1.png" border="0"/></div>
+		<div class="header-icon2"><img src="graphics/header-icon-2.png" border="0"/></div>
+		<!-- slideshow images need to be 607x403 px -->
+		<div id="slideshow" class="slideshow"> 
+			<div class="images">
+				<img src="graphics/slideshow-3-snowmen.jpg" border="0"/>
+			</div>
+			<div class="images">
+				<img src="graphics/slideshow-artiq-intrior.jpg" border="0"/>
+			</div>
+			<div class="images">
+				<img src="graphics/slideshow-colored-glasses.jpg" border="0"/>
+			</div>
+			<div class="images">
+				<img src="graphics/slideshow-dsc_0147.JPG" border="0"/>
+			</div>
+			
+			<div class="images">
+				<img src="graphics/slideshow-ornament-disply.jpg" border="0"/>
+			</div>
+			
+			<div class="images">
+				<img src="graphics/slideshow-ornament-group-flt.jpg" border="0"/>
+			</div>
+			
+			<div class="images">
+				<img src="graphics/slideshow-photo-2.JPG" border="0"/>
+			</div>
+			<div class="images">
+				<img src="graphics/slideshow-photo-3.JPG" border="0"/>
+			</div>
+			<div class="images">
+				<img src="graphics/slideshow-photo-4.JPG" border="0"/>
+			</div>
+			<div class="images">
+				<img src="graphics/slideshow-snowflake.jpg" border="0"/>
+			</div>
+			<div class="images">
+				<img src="graphics/slideshow-snowman-close-up.jpg" border="0"/>
+			</div>
+			<div class="images">
+				<img src="graphics/slideshow-st-nick.jpg" border="0"/>
+			</div>
+			<div class="images">
+				<img src="graphics/slideshow-table-mice.jpg" border="0"/>
+			</div>
+			
+			
+		</div>
+		<div class="award1"><img src="graphics/award-1.png" border="0"/></div>
+		<div class="award2"><img src="graphics/award-2.png" border="0"/></div>
+	</div>
+</body>
+
+<script type="text/javascript">
+	    jQuery(document).ready(function($) {
+	        $('#slideshow').cycle({
+	            fx: 'fade',  // Effects: http://jquery.malsup.com/cycle/browser.html
+	            timeout: 3000
+	        });
+	    });
+	</script>
+</html>
