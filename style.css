@@ -1,0 +1,78 @@
+body{
+	text-align:center; /* for IE */
+	margin:0px;
+}
+
+div.center{
+	text-align:left; /* reset text alignment */ 
+	width:915px; /* or a percentage, or whatever */ 
+	height:854px;
+	margin:0 auto; /* for the rest */
+	background-image:url(graphics/background.png);
+	z-index:-1;
+}
+
+
+div.header-graphic img{
+	position:absolute;
+	margin:22px 0px 0px 26px;
+	padding:0px;
+	background:transparent;
+}
+
+div.header-text img{
+	position:absolute;
+	margin:166px 0px 0px 31px;
+	padding:0px;
+	cursor:pointer;
+}
+
+div.header-icon1 img{
+	position:absolute;
+	z-index:300;
+	margin:22px 0px 0px 526px;
+	padding:0px;
+}
+
+div.header-icon2 img{
+	position:absolute;
+	margin:54px 0px 0px 692px;
+	padding:0px;
+	height:642px;
+	width:205px;
+}
+
+div.slideshow{
+	position:absolute;
+	text-align:left; /* reset text alignment */ 
+	width:643px; /* or a percentage, or whatever */ 
+	height:446px;
+	margin:242px 0px 0px 31px; /* for the rest */
+	padding:0px;
+	background-image:url(graphics/slideshow-0-background.png);
+	z-index:0;
+}
+div.slideshow div.images img{
+	position:absolute;
+	margin:12px 0px 0px 17px;
+	padding:0px;
+	height:403px;
+	width:607px;
+	z-index:0;
+}
+
+div.award1{
+	position:absolute;
+	margin:630px 0px 0px 740px;
+	padding:0px;
+	height:98px;
+	width:139px;
+}
+
+div.award2 img{
+	position:absolute;
+	margin:740px 0px 0px 740px;
+	padding:0px;
+	height:71px;
+	width:136px;
+}
