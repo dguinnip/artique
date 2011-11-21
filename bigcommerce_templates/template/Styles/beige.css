@@ -27,16 +27,36 @@ body{
     text-align:center; /* for IE */
     margin:0px;
 }
-
+/*
 div.center{
-    text-align:left; /* reset text alignment */ 
-    width:915px; /* or a percentage, or whatever */ 
-    height:854px;
-    margin:0 auto; /* for the rest */
-    background-image:url(http://artique.mybigcommerce.com/templates/__custom/background.png);
+    text-align:left; 
+    width:915px;
+    height:854px:
+    margin:0 auto; 
+    background-image:url(http://artique.mybigcommerce.com/templates/__custom/background_repeatable.png);
+    background-repeat: repeat-y;
+    z-index:-1;
+}*/
+div.center{
+    text-align:left;  
+    width:915px; 
+    height:100%;
+    min-height:854px;
+    margin:0 auto; 
+    background-image:url(http://artique.mybigcommerce.com/templates/__custom/background_repeatable.png);
+    background-repeat: repeat-y;
     z-index:-1;
 }
-
+/*works
+div.center{
+    text-align:left;  
+    width:915px; 
+    height:854px;
+    margin:0 auto; 
+    background-image:url(http://artique.mybigcommerce.com/templates/__custom/background_repeatable.png);
+    z-index:-1;
+}
+*/
 
 div.header-graphic img{
     position:absolute;
@@ -114,7 +134,7 @@ h3 {
 }
 */
 #TopMenu {
-    margin:0px 0px 0px -18px;
+    margin:0px 0px 0px -28px;
     /*background-color:#fbfbf8*/
     background-color:#fff
 }
@@ -247,7 +267,7 @@ h3 {
     color: #000;
 }
 .ProductPrice, .ProductList em {
-    color: #ff3333;
+    color: #f0ff00;
     font-size:.99em;
 }
 .ProductList .Rating {
@@ -516,7 +536,7 @@ table.General tbody tr td {
 }
 .fastCartContent .ProductPrice,
 .fastCartContent .ProductList em {
-    color: #800000;
+    color: #f0ff00;
 }
 .fastCartContent .Quantity {
     color: #828DB3;

@@ -907,10 +907,10 @@ ul.ShippingAddressList li {
     padding-left:5px;
 }
 .Availability {
-    color:gray;
+    color:white;
 }
 .LittleNote {
-    color:gray;
+    color:white;
     font-size: 0.85em;
 }
 .ViewCartLink {
@@ -1089,7 +1089,7 @@ ul.ProductOptionList {
 .DownloadExpires {
     padding-top: 3px;
     font-style: italic;
-    color: gray;
+    color: white;
 }
 .DownloadExpiresToday {
     color: red;
@@ -1169,7 +1169,7 @@ ul.ProductOptionList {
 }
 small {
     font-size: 11px;
-    color: gray;
+    color: black;
 }
 .HowToPay {
     margin-bottom: 10px;
@@ -1312,6 +1312,7 @@ small {
     position: relative;
     padding: 6px;
     margin-bottom: 10px;
+    width:828px;
 }
 .ExpressCheckoutBlock h3 a {
     font-size: 12px;
@@ -1559,7 +1560,7 @@ p.QuantityInput, p.AddCartButton {
 }
 .TransitTime {
     font-weight: normal;
-    color: gray;
+    color: white;
 }
 .Content .ProductList.List li {
     margin: 0;
@@ -1611,7 +1612,7 @@ p.QuantityInput, p.AddCartButton {
 /* Custom Fields - Start */
 
 .LittleNotePassword {
-    color:gray;
+    color:white;
     font-size: 0.85em;
     padding:2px 0px 2px 0px;
 }
