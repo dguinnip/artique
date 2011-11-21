@@ -267,7 +267,7 @@ h3 {
     color: #000;
 }
 .ProductPrice, .ProductList em {
-    color: #f0ff00;
+    color: #000;
     font-size:.99em;
 }
 .ProductList .Rating {
@@ -536,7 +536,7 @@ table.General tbody tr td {
 }
 .fastCartContent .ProductPrice,
 .fastCartContent .ProductList em {
-    color: #f0ff00;
+    color: #000000;
 }
 .fastCartContent .Quantity {
     color: #828DB3;
