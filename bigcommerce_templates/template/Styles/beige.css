@@ -27,16 +27,14 @@ body{
     text-align:center; /* for IE */
     margin:0px;
 }
-/*
-div.center{
-    text-align:left; 
-    width:915px;
-    height:854px:
-    margin:0 auto; 
-    background-image:url(http://artique.mybigcommerce.com/templates/__custom/background_repeatable.png);
-    background-repeat: repeat-y;
-    z-index:-1;
-}*/
+
+div.facebooklink{
+    position:absolute;
+    margin-top:-87px;
+    margin-left:50px;
+    
+}
+
 div.center{
     text-align:left;  
     width:915px; 
@@ -69,7 +67,7 @@ div.header-text img{
     position:absolute;
     margin:166px 0px 0px 31px;
     padding:0px;
-    cursor:pointer;
+    /*cursor:pointer;*/
 }
 
 div.header-icon1 img{

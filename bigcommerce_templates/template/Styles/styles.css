@@ -12,8 +12,10 @@
 }
 /* General */
 body {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 0.95em;
+    /*font-family: Georgia, "Times New Roman", Times, serif;*/
+    font-family: "Trebuchet MS", sans-serif;
+    /*font-size: 0.95em;*/
+    font-size:100%;
     height: 100%;
 }
 input, select {
@@ -185,7 +187,7 @@ hr {
 #Menu li a {
     display: block;
     float: left;
-    font-size: 0.75em;
+    font-size: 1.00em;
     font-weight: 400;
     text-align: center;
     padding: 0 15px 0 15px;
@@ -371,13 +373,14 @@ hr {
 /* Primary Content Area */
 .Content {
     float: left;
-    width: 610px;
+    /*width: 610px;*/
+    width: 850px;
     min-height: 500px;
     /*margin: 0 22px;
     padding: 10px 0;*/
     margin: 0 22px;
     padding: 0 0;
-    font-size: 0.9em;
+    font-size: 1.2em;
 }
 .Content .Block {
     clear: both;
@@ -644,7 +647,9 @@ hr {
     padding: 0;
 }
 .Breadcrumb {
-    font-size: 0.95em;
+    /*font-size: 0.95em;*/
+    font-size: 1.00em;
+    font-weight: 400;
     padding: 0px 0 4px 0;
     border-bottom: 1px solid #DCDFE2;
 }
